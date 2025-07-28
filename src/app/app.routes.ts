@@ -12,7 +12,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CartComponent } from './components/cart/cart';
 import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard';
-import { AdminDashboardStockComponent } from './components/admin-dashboard-stock/admin-dashboard-stock';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'user/dashboard', pathMatch: 'full' },
@@ -30,7 +29,6 @@ export const routes: Routes = [
   { path: '', redirectTo: '/products', pathMatch: 'full' },
   { path: '', redirectTo: 'admin', pathMatch: 'full' },
   { path: 'store/admin', component: AdminDashboardComponent },
-  { path: 'stock', component: AdminDashboardStockComponent },
 ];
 
 @NgModule({
