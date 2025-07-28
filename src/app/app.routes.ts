@@ -29,7 +29,7 @@ export const routes: Routes = [
   { path: 'products', component: ProductsComponent },
   { path: '', redirectTo: '/products', pathMatch: 'full' },
   { path: '', redirectTo: 'admin', pathMatch: 'full' },
-  { path: 'admin', component: AdminDashboardComponent },
+  { path: 'store/admin', component: AdminDashboardComponent },
   { path: 'stock', component: AdminDashboardStockComponent },
 ];
 
